@@ -12,14 +12,17 @@
 }
 #main {
 
-    background-image: url(/img/paper2.png);
-    background-repeat: repeat;
+    font-family: 'TT2020BaseRegular';
+    font-size:1.35em;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.25em
+    display: block; /*delete these 4 lines if problems */
+    position: relative;
+    word-break: break-word;
+    z-index: 999999;
 }
-
-#body {
-  font-family: 'TT2020BaseRegular';
-  font-size:1.35em;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.25em
+#posts {
+  margin: auto !important;
+  text-align: center;
 }

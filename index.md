@@ -1,6 +1,6 @@
 ---
-layout: default
+layout: home
+title: journal eternal
 ---
 
-We're runnin
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+# Journal Eternal
