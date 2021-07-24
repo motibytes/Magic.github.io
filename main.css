@@ -15,3 +15,11 @@
     background-image: url(/img/paper2.png);
     background-repeat: repeat;
 }
+
+#body {
+  font-family: 'TT2020BaseRegular';
+  font-size:1.3em; 
+  font-weight: normal;
+  font-style: normal;
+
+}
