@@ -1,5 +1,4 @@
 #note {
-
   background-color: #E4D4C8;
   font-size: 1.5em;
   color: black;
@@ -21,8 +20,12 @@
     position: relative;
     word-break: break-word;
     z-index: 999999;
+    background-color: #FFF1E5;
 }
 #posts {
+  background-image: url("/img/paper.jpg");
+/*  background-size:cover; */
+  background-size: 750px;
   margin: auto !important;
   text-align: center;
 
