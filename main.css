@@ -1,16 +1,5 @@
-#note {
-  background-color: #E4D4C8;
-  font-size: 1.5em;
-  color: black;
-  font-family: 'Playfair Display', serif;
-}
-#notetext {
-  text-align: left;
-  margin-left: 10px;
 
-}
 #main {
-
     font-family: 'TT2020BaseRegular';
     font-size:1.35em;
     font-weight: normal;
@@ -24,10 +13,8 @@
 }
 #posts {
   background-image: url("/img/paper.jpg");
-/*  background-size:cover; */
   background-size: 750px;
   margin: auto !important;
   text-align: center;
-
   width: 750px;
 }
