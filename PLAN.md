@@ -10,3 +10,5 @@ we will get ahold of all relevant tags. we will have daily instagram content.
 The magic letters are different than the magic pages.
 
 And they need to be in that font that dearpsycho.com was using.
+
+consider looking at are.na again
