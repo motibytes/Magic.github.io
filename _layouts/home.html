@@ -2,15 +2,65 @@
 layout: default
 ---
 
+<style>
+  :root {
+    --bg-color: #FFF1E5;
+    --typewriterSpeed: 4s;
+    --typewriterCharacters: 24;
+  }
+  #mine {
+    position: relative;
+    width: max-content;
+  }
+  #mine::before,
+  #mine::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  #mine::before {
+    background: var(--bg-color);
+    animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 1s forwards;
+  }
+  #mine::after {
+    width: 0.125em;
+    background: black;
+    animation: typewriter var(--typewriterSpeed)
+        steps(var(--typewriterCharacters)) 1s forwards,
+      blink 750ms steps(var(--typewriterCharacters)) infinite;
+  }
+  @keyframes typewriter {
+    to {
+      left: 100%;
+    }
+  }
+  @keyframes blink {
+    to {
+      background: transparent;
+    }
+  }
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
 {{ content }}
 
+<h1 id="mine"> The Blessed Letters </h1>
 
 <ul>
   {% for post in site.posts %}
   <div id="thefeed" >
     <li >
       <h4 id="thefeedmore"><a href="{{ post.url }}"> {{ post.title }}</a>  {{ post.topic }} {{ post.date }}</h4>
-      <p id="thefeedmore">{{ post.excerpt }}</p>
+      <p>  {{ post.excerpt }}</p>
     </li>
   </div>
     <br>

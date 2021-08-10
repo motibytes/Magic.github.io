@@ -1,6 +1,6 @@
 ---
 layout: home
-title: journal eternal
+title: The Blessed Letters
 ---
 
-# Journal Eternal
+# The Blessed Letters

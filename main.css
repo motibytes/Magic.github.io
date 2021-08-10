@@ -1,8 +1,9 @@
 
 #main {
-    font-family: 'Zeyada', cursive;  
-    /*font-family: 'TT2020BaseRegular'; */
-    font-size:1.35em;
+    font-family: 'Zeyada', cursive;
+    /*font-family: 'TT2020BaseRegular';
+    font-size:1.35em;*/
+    font-size: 30px;
     font-weight: normal;
     font-style: normal;
     line-height: 1.25em
@@ -11,6 +12,9 @@
     word-break: break-word;
     z-index: 999999;
     background-color: #FFF1E5;
+
+      background-repeat: no-repeat;
+      background-size: 1920px;
 }
 #posts {
   background-image: url("/img/paper.jpg");
@@ -23,6 +27,6 @@ a {
   color: black;
 }
 body {
-  background-color: #FFF1E5; /* change if you want to make a header for the page or something */
+/*  background-color: #FFF1E5;  change if you want to make a header for the page or something */
 
 }

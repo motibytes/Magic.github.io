@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posttype
 ---
 
 I do want to make sure you know that we did find our answer.
@@ -27,4 +27,4 @@ Did I mention that I love you?
 
 Did I mention that we have to do this?
 
-Just one nice letter a night before bed. That wouldn't hurt you, would it? 
+Just one nice letter a night before bed. That wouldn't hurt you, would it?
