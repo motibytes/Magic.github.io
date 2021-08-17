@@ -1,3 +1,5 @@
+Dear, 
+
 I had held the wondering of what I wanted to write to you in my mind,
 and I heard a thought drift by so casually I almost didn't grab it.
 
@@ -48,4 +50,4 @@ I bless you to see and to hear, and to feel wonderful, and to find that connecti
 you desperately yearn for, and I would hold you close to my chest in silence because
 a word was not needed, and not a soul could take that away.
 
--James The Blessed 
+-James The Blessed
