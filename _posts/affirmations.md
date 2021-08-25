@@ -1,6 +1,4 @@
----
-layout: post
----
+
 
 Your writing is beautiful.
 
@@ -21,8 +19,6 @@ I am Making us Healed.
 I am doing it.
 
 I am happy to be me.
-
-I am sexually happy.
 
 I am good.
 
