@@ -1,6 +1,3 @@
----
-layout: postmobile
----
 
 I’m Nobody! Who are you?
 Are you – Nobody – too?
