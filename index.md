@@ -1,6 +1,4 @@
 ---
 layout: home
-title: The Blessed Letters
+title: BytesTheBlessed.com
 ---
-
-# The Blessed Letters
