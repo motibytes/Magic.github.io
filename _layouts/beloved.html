@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+
+<div id="bookpage">
+  <div id="book">
+    <div id="page">
+      <div id="page_content">
+        <div id="pageloader">
+          {{ page.number }} <br> <br>
+          <iframe style="width:350px; height: 350px;"  src="https://i.imgur.com/{{page.image}}"> </iframe> <br>  <!-- imgur sends 403 on 127.0.0 -->
+          Owner: <div id="address"> {{ page.owner }} </div>
+
+          <br> <br> <br>
+        </div>
+      </div>
+    </div>
+    <div id="page">
+      <div id="page_content">
+        {{ page.title }} <br> <br>
+        <div id="nft">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<!-- Part 2: Implement CSS Breakpoints 0-->

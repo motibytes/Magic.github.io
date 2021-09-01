@@ -7,6 +7,8 @@ play = chill, read, dorpal fiction
 
 #next
 #daytime
+testing nft deployment on mumbai 
+
 host bytestheblessed
 hardhat deployment
 #nighttime
@@ -15,6 +17,9 @@ more styling bytestheblessed
 try pinata tutorial on hardhat network this time
 try different font
 
+----- 1: solidity-by-example [at ? - Calls - Text ] - [at Error - Videos]
+-----2: scaffold eth docs https://docs.scaffoldeth.io/scaffold-eth/getting-started/installation
+-----3: Remix Ethereum tutorials -https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.4+commit.c7e474f2.js
 next: try a different contract, like the one from ethereums site
 
 parse week 8
@@ -25,6 +30,7 @@ parse week 4
 parse week 5
 parse week 6
 
+🏄‍♂️ Build something cool and show it off on Twitter! (tag @austingriffith !)
 
 
 

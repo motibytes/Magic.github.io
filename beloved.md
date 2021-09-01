@@ -1,8 +1,10 @@
+---
+layout: default
+---
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-
       <!--Even when you can't see it,
     *** You  *** are Loved by God and Your World and Humankind!
     Now Go Forth and Prosper and Bless and Be Blessed!
@@ -45,19 +47,44 @@
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+   <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="{{ 'mainbeloved.css' | relative_url }}">
 
-   <link rel="stylesheet" href="{{ 'main.css' | relative_url }}">
   </head>
-<body>
 
-  <div id="main">
-    {% include heading.html %}
-<br>
-  {{ content }}
-</div>
+<body>
+  <div id="heading" id="main"> <!--remove id for custom styling -->
+  <b> <a href="{{ site.url }}" id="heading"> BytesTheBlessed.com </a> </b>
+  </div>
+
+
+
+
+  <div id="bookpage">
+    <div id="book">
+      <div id="page">
+        <div id="page_content">
+
+        </div>
+      </div>
+      <div id="page">
+        <div id="page_content">
+          Be Loved 0.2 <br>
+          <div id="nft">
+            <iframe style="width:350px; height: 350px;" id="#nft-frame" src="https://ipfs.io/ipfs/QmbiYEMyYXB8fr6SuLPkdwZzZKp8DwYWJnSdwePDkxkz4f"> </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- Part 2: Implement CSS Breakpoints 0-->
 
 </body>
