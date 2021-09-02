@@ -1,4 +1,5 @@
 ---
-layout: home
-title: BytesTheBlessed.com
+layout: null
 ---
+
+{{ site.posts.first }}

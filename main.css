@@ -10,7 +10,8 @@ h1 {
     font-family: 'Homemade Apple', cursive;
     /*font-family: 'TT2020BaseRegular';
     font-size:1.35em;*/
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 24px;
     font-weight: normal;
     font-style: normal;
     line-height: 1.25em
@@ -18,9 +19,8 @@ h1 {
     position: relative;
     word-break: break-word;
     z-index: 999999;
-
-      background-repeat: no-repeat;
-      background-size: 1920px;
+    background-repeat: no-repeat;
+    background-size: 1920px;
 }
 #posts {
   background-image: url("/img/paper.jpg");
@@ -34,19 +34,37 @@ a {
   text-decoration: none;
 
 }
-body {
-/*  background-color: #FFF1E5;  change if you want to make a header for the page or something */
-
-}
 #heading {
   font-family: 'Press Start 2P', cursive;
   padding-left: 20px;
+  color: #999999;
+  /* jb gold #a28351; */
+}
+#belovedheading {
+  font-family: 'Press Start 2P', cursive;
+  padding-left: 20px;
+  color: white;
+  /* jb gold #a28351; */
 }
 body {
-      font-family: 'Homemade Apple', cursive;
-  /* background-color: #FFF1E5; */
-  background-color: #303030;
+  font-family: 'Homemade Apple', cursive;
+  /* background-color: #FFF1E5;
+                       #303030;
+  */
+  background-color: #111111;
 
+}
+#holdmybook {
+  height: 90vh;             /* 14, 11,
+    */
+  background-image: url("/imgtest/14.jpg");
+  background-size: 1920px 100%;
+}
+#holdmybookspecial {
+  height: 90vh;             /* 14, 11,
+    */
+  background-image: url("/imgtest/14.jpg");
+  background-size: 1920px 100%;
 }
 #bookpage {
     height: 80vh;
@@ -54,7 +72,27 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #111111;
+/*    background-color: #111111;
+
+  background-size: contain;
+  background-size: cover;
+
+*/
+
+}
+
+#bookpagespecial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+/*    background-color: #111111;
+
+  background-size: contain;
+  background-size: cover;
+
+*/
 
 }
 #book {
@@ -72,12 +110,32 @@ body {
   background-color: #fffbf3;
 
 }
+
+#pagespecial
+  {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-image: linear-gradient(90deg, rgba(227,227,227,1) 0%, rgba(247,247,247,0) 18%);
+    background-color: #999999;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+    background-image: url("/imgtest/14.jpg");
+
+  }
 #page_content {
   padding: 12px;
   height: 100%;
   position: relative;
   text-align: center;
 }
+
+#address {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+}
+/* NFT */
 #nft {
 
 }
@@ -85,7 +143,45 @@ body {
   height: 350px;
   width: 350px;
 }
-#address {
+#nftbutton {
+  background: none;
+  cursor: pointer;
+  line-height: 1;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+  border: 5px solid black;
   font-family: 'Press Start 2P', cursive;
-  font-size: 12px;
+}
+#nftbutton:hover {
+  background: black;
+  border: 5px solid #fffbf3;
+  color: #fffbf3;
+}
+
+#nftbuttonowned {
+  background: none;
+  cursor: pointer;
+  line-height: 1;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+  border: 5px solid grey;
+  font-family: 'Press Start 2P', cursive;
+  color: grey;
+}
+p { /* custom !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+b {
+
+    padding: 0px 0px 0px 0px!important;
+    margin: 0px 0px 0px 0px !important;
+}
+#navnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  width: 424px;
+  position: absolute;
 }

@@ -2,32 +2,44 @@
 layout: default
 ---
 
-
+<div id="holdmybook"> <br> {% include belovedheading.html %}
+ <br>
+  {% include verticalnavbar.html %}
 <div id="bookpage">
   <div id="book">
     <div id="page">
       <div id="page_content">
-        <div id="pageloader">
-          {{ page.number }} <br> <br>
+        <div id="pageloader">               <!-- ////////////// LEFT //////////////// -->
+          <!-- {{ page.number }} -->  <br> <br>
           <iframe style="width:350px; height: 350px;"  src="https://i.imgur.com/{{page.image}}"> </iframe> <br>  <!-- imgur sends 403 on 127.0.0 -->
-          Owner: <div id="address"> {{ page.owner }} </div>
-
+       <!--    Owner: <div id="address"> {{ page.owner }} </div>
+          <br> -->   <br> <br> <br> 
+          <div id="page-bottom-left">
+            {% if page.previous.url %}
+              <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+            {% endif %}
+          </div>
           <br> <br> <br>
+
         </div>
       </div>
     </div>
-    <div id="page">
+    <div id="page">                       <!-- ////////////// RIGHT //////////////// -->
       <div id="page_content">
         {{ page.title }} <br> <br>
         <div id="nft">
           {{ content }}
         </div>
+        <div class="PageNavigation">
+          {% if page.next.url %}
+            <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+          {% endif %}
+        </div>
       </div>
+
+
     </div>
   </div>
-
-
-
 </div>
-
+</div>
 <!-- Part 2: Implement CSS Breakpoints 0-->
