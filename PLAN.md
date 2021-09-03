@@ -14,7 +14,7 @@ And they need to be in that font that dearpsycho.com was using.
 consider looking at are.na again
 
 
-# - Automatic blog post
+# - Automatic blog post - KEK 
 # - 1. Manually screenshot and upload NFT to collection on opensea, copy to pinata  
 # - 2. Mint NFT, set sell price very very low, set royalties 10%
 # - 3. Somehow make this available on facebook business
