@@ -185,3 +185,10 @@ b {
   width: 424px;
   position: absolute;
 }
+canvas {
+  display: block;
+  position: absolute;
+  top: 50px;
+  width: 500px;
+  height: 500px;
+}
