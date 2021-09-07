@@ -30,7 +30,7 @@ h1 {
   width: 750px;
 }
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 
 }
@@ -57,7 +57,7 @@ body {
 #holdmybook {
   height: 90vh;             /* 14, 11,
     */
-  background-image: url("/imgtest/14.jpg");
+  background-image: url("/imgtest/background3.png");
   background-size: 1920px 100%;
 }
 #holdmybookspecial {
@@ -108,7 +108,8 @@ body {
   display: grid;
   background-image: linear-gradient(90deg, rgba(227,227,227,1) 0%, rgba(247,247,247,0) 18%);
   background-color: #fffbf3;
-
+  background-image: url("/img/paper.png");
+  background-size: 100% 100%;
 }
 
 #pagespecial
